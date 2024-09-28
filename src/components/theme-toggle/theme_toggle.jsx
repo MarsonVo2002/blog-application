@@ -6,7 +6,6 @@ import { useContext } from "react";
 import { ThemeContext } from "@/context/theme-context";
 const ThemeToggle = () => {
   const { theme, toggle } = useContext(ThemeContext);
-  console.log(theme);
   return (
     <div className={styles.container} onClick={toggle}  style={
       theme === "dark"
