@@ -25,7 +25,7 @@ const Card = ({ key, item }) => {
           <h1>{item.title}</h1>
         </Link>
 
-        <p className={styles.desc}>{item.desc}</p>
+        <p className={styles.desc}>{item.desc.split(" ").slice(0, 10).join(" ") + "..."}</p>
         <Link className={styles.link} href={`/posts/${item.slug}`}>
           Read More
         </Link>
