@@ -23,7 +23,7 @@ const Navbar = () => {
         <Image src="/tiktok.png" alt="tiktok" width={24} height={24}></Image>
         <Image src="/youtube.png" alt="youtube" width={24} height={24}></Image>
       </div>
-      <div className={styles.logo}>Leovo's Blog</div>
+      <div className={styles.logo}><Link href="/">Leovo's Blog</Link></div>
       <div className={styles.links}>
         <ThemeToggle/>
         <Link href="" className={styles.link}>Homepage</Link>
